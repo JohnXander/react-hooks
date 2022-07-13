@@ -1,4 +1,7 @@
 import './App.css';
+import './styles/UseState.css';
+import './styles/UseReducer.css';
+
 import UseReducer from './components/UseReducer';
 import UseState from './components/UseState';
 

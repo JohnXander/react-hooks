@@ -1,48 +1,8 @@
 .hook-container{
     display: flex;
-}
-
-.use-state{
-    background-color: lightblue;
-    padding: 1rem 2rem;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
-.use-state span {
+.hook-title {
     font-size: 2rem;
-}
-
-.use-state div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 1rem;
-}
-
-.use-state div > *{
-    margin: 0;
-}
-
-.use-state button {
-    font-size: 2rem;
-    padding: 0 2rem;
-    cursor: pointer;
-}
-
-.use-state p {
-    font-size: 2rem;
-}
-
-.use-state input{
-    width: 8.5rem;
-    border: none;
-    outline: none;
-    font-size: 1.5rem;
-}
-
-.use-state div:last-child{
-    margin-top: 0.25rem;
 }

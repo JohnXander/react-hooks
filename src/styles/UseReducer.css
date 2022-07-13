@@ -1,0 +1,29 @@
+.use-reducer{
+    background-color: lightcoral;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.use-reducer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.use-reducer div span {
+    font-size: 2rem;
+}
+
+.use-reducer button {
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.use-reducer div div {
+    height: 3.5rem;
+}

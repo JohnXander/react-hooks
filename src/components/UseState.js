@@ -1,5 +1,6 @@
 import { useState } from "react"
 
+
 const UseState = () => {
     const [counter, setCounter] = useState(0)
     const [inputValue, setInputValue] = useState("John")
@@ -8,12 +9,12 @@ const UseState = () => {
     const decrement = () => setCounter(counter - 1)
     const changeName = (e) => {
         const newName = e.target.value
-        if (newName.length < 5) setInputValue(newName)
+        if (newName.length <= 10) setInputValue(newName)
     }
 
     return (
         <div className="use-state">
-            <span>UseState Hook</span>
+            <span className="hook-title">1. UseState Hook</span>
             <div>
                 <button onClick={decrement}>-</button>
                 <p>{counter}</p>
