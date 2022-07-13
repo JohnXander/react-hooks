@@ -22,8 +22,15 @@
     padding: 0.5rem 2rem;
     border-radius: 5px;
     cursor: pointer;
+    margin: 0.5rem;
 }
 
 .use-reducer div div {
-    height: 3.5rem;
+    height: 2.5rem;
+}
+
+.use-reducer p {
+    margin: 0;
+    padding-top: 0.25rem;
+    font-size: 1.5rem;
 }

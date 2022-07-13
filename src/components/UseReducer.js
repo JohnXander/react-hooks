@@ -24,7 +24,7 @@ const UseReducer = () => {
                         dispatch({type: "incrementCount"})
                         dispatch({type: "toggleShowText"})
                     }}>
-                    Increment
+                    Run Both
                 </button>
                 <div>{state.showText && <p>This is some text!</p>}</div>
             </div>

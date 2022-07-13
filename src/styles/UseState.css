@@ -33,6 +33,7 @@
     border: none;
     outline: none;
     font-size: 1.5rem;
+    margin: 0.5rem;
 }
 
 .use-state div:last-child{

@@ -3,11 +3,11 @@ import { useState } from "react"
 
 const UseState = () => {
     const [counter, setCounter] = useState(0)
-    const [inputValue, setInputValue] = useState("John")
+    const [inputValue, setInputValue] = useState("")
 
     const increment = () => setCounter(counter + 1)
     const decrement = () => setCounter(counter - 1)
-    const changeName = (e) => {
+    const changeText = (e) => {
         const newName = e.target.value
         if (newName.length <= 10) setInputValue(newName)
     }
@@ -23,8 +23,8 @@ const UseState = () => {
             <div>
                 <input
                     type="text"
-                    placeholder="Name..."
-                    onChange={changeName}
+                    placeholder="Write..."
+                    onChange={changeText}
                 />
                 <h2>{inputValue}</h2>
             </div>
