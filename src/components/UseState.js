@@ -1,6 +1,5 @@
 import { useState } from "react"
 
-
 const UseState = () => {
     const [counter, setCounter] = useState(0)
     const [inputValue, setInputValue] = useState("")
@@ -23,7 +22,7 @@ const UseState = () => {
             <div>
                 <input
                     type="text"
-                    placeholder="Write..."
+                    placeholder="Write text..."
                     onChange={changeText}
                 />
                 <h2>{inputValue}</h2>

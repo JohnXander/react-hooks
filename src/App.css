@@ -6,3 +6,14 @@
 .hook-title {
     font-size: 2rem;
 }
+
+/* Dice stuff */
+
+.dice-roll{
+    padding: 1rem;
+}
+
+.roll-results{
+    display: flex;
+    column-gap: 5rem;
+}

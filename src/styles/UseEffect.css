@@ -1,0 +1,22 @@
+.use-effect{
+    background-color: lightcyan;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.use-effect p {
+    margin: 0;
+    padding-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.use-effect button {
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
