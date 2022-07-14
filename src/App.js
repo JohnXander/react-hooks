@@ -2,11 +2,13 @@ import './App.css';
 import './styles/UseState.css';
 import './styles/UseReducer.css';
 import './styles/UseEffect.css';
+import './styles/UseRef.css';
 
 import UseReducer from './components/UseReducer';
 import UseState from './components/UseState';
 import DiceRoll from './components/DiceRoll';
 import UseEffect from './components/UseEffect';
+import UseRef from './components/UseRef';
 
 const App = () => {
 
@@ -15,6 +17,7 @@ const App = () => {
       <UseState />
       <UseReducer />
       <UseEffect />
+      <UseRef />
       <DiceRoll />
     </div>
   );

@@ -1,0 +1,30 @@
+.use-ref{
+    background-color: lightgoldenrodyellow;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.use-ref > * {
+    margin-bottom: 1rem;
+}
+
+.use-ref input{
+    width: 15rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.use-ref button {
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 3px;
+}
