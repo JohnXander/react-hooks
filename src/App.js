@@ -3,12 +3,14 @@ import './styles/UseState.css';
 import './styles/UseReducer.css';
 import './styles/UseEffect.css';
 import './styles/UseRef.css';
+import './styles/UseLayoutEffect.css';
 
 import UseReducer from './components/UseReducer';
 import UseState from './components/UseState';
 import DiceRoll from './components/DiceRoll';
 import UseEffect from './components/UseEffect';
 import UseRef from './components/UseRef';
+import { UseLayoutEffect } from './components/UseLayoutEffect';
 
 const App = () => {
 
@@ -18,6 +20,7 @@ const App = () => {
       <UseReducer />
       <UseEffect />
       <UseRef />
+      <UseLayoutEffect />
       <DiceRoll />
     </div>
   );
