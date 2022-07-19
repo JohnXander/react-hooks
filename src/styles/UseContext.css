@@ -1,0 +1,23 @@
+.use-context{
+    background-color: lightpink;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.use-context input{
+    width: 8.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+}
+
+.use-context p {
+    font-size: 2rem;
+    margin: 0;
+}
