@@ -6,6 +6,7 @@ import './styles/UseRef.css';
 import './styles/UseLayoutEffect.css';
 import './styles/UseImperativeHandle.css';
 import './styles/UseContext.css';
+import './styles/UseMemo.css';
 
 import UseReducer from './components/UseReducer';
 import UseState from './components/UseState';
@@ -14,6 +15,7 @@ import UseRef from './components/UseRef';
 import { UseLayoutEffect } from './components/UseLayoutEffect';
 import UseImperativeHandle from './components/UseImperativeHandle';
 import UseContext from './components/UseContext';
+import UseMemo from './components/UseMemo';
 
 const App = () => {
 
@@ -26,6 +28,7 @@ const App = () => {
       <UseLayoutEffect />
       <UseImperativeHandle />
       <UseContext />
+      <UseMemo />
     </div>
   );
 }
